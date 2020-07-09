@@ -19,9 +19,9 @@ public class test {
        Thread.sleep(1000);
 
 
-       driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("130726101676");
+       driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("用户名");
 
-       driver.findElement(By.xpath("//*[@id=\"mcmm\"]")).sendKeys("yzq18830307165");
+       driver.findElement(By.xpath("//*[@id=\"mcmm\"]")).sendKeys("密码");
 
        driver.findElement(By.xpath("//*[@id=\"btn-login\"]")).click();
 
